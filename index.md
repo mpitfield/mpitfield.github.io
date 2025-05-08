@@ -19,7 +19,7 @@ title: Home
         let current = '';
         let next = '';
         for (let i=0; i<carousels.length; i++) {
-            if (carousels[i].classList.has('current')) {
+            if (carousels[i].classList.contains('current')) {
                 current = carousels[i];
                 next = carousels[i + 1];
                 break;
