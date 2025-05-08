@@ -21,6 +21,11 @@
     width: 100%;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
