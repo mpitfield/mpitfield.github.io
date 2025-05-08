@@ -3,6 +3,9 @@ layout: page
 title: Home
 ---
 
-<h1>HOME</h1>
-<div class="home-box">test</div>
-<div class="carousel"></div>
+<div class="carousel">
+    <img src="/images/car1.jpg">
+    <img src="/images/car2.jpg">
+    <img src="/images/car3.jpg">
+    <img src="/images/car4.jpg">
+</div>
