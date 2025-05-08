@@ -2,6 +2,7 @@
 
 :root {
     --blue: #184779;
+    --blue-hover: #184779;
     --dark-grey: #3e3e3e;
     --light-grey: #efefef;
 }
@@ -14,7 +15,7 @@ body {
 .header {
     width: 100%;
     margin-bottom: 50px;
-    background-color: var(--light-blue);
+    background-color: var(--light-grey);
     color: white;
     text-align: center;
     padding: 0 10px;
@@ -40,7 +41,7 @@ body {
 
 .error-404 {
     border-radius: 8px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto;
     padding: 100px 0px;
     text-align: center;
 }
