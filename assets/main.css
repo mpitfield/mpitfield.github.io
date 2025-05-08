@@ -28,17 +28,21 @@ body {
 
 .error-404 {
     border-radius: 8px;
-    margin: 200px auto;
+    margin: 0 auto 200px auto;
     padding: 100px 0px;
     text-align: center;
 }
 
 .error-404 h1 {
-    font-size: 50px;
+    font-size: 350px;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .error-404 h2 {
     font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .button {
