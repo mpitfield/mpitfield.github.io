@@ -6,7 +6,9 @@
     --dark-grey: #3e3e3e;
     --light-grey: #efefef;
     --black: #222222;
-    --black-hover: #222222;
+    --black-hover: #3e3e3e;
+    --white: #ffffff;
+    --white-hover: #efefef;
 }
 
 body {
@@ -36,7 +38,7 @@ body {
     width: 200px;
 }
 
-.link-black a {
+.link-black {
     color: var(--black) !important;
     font-weight: 600;
     font-size: 20px;
@@ -45,10 +47,10 @@ body {
 }
 
 .link-black:hover {
-    color: var(--dark-grey) !important
+    color: var(--black-hover) !important
 }
 
-.link-white a {
+.link-white {
     color: var(--white) !important;
     font-weight: 600;
     font-size: 20px;
@@ -57,7 +59,7 @@ body {
 }
 
 .link-white:hover {
-    color: var(--light-grey) !important
+    color: var(--white-hover) !important
 }
 
 .footer {
