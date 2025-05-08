@@ -3,4 +3,12 @@ layout: page
 title: Smiley
 ---
 
-<h1>Smiley</h1>
+<div class="face" id="face">
+    <div class="eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+    </div>
+    <div class="mouth isHappy" id="mouth">
+        <div class="teeth"></div>
+    </div>
+</div>
