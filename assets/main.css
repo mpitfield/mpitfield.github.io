@@ -20,3 +20,11 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+.404 {
+    width: 500px;
+    border: 5px solid #184779;
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: #184779;
+}
