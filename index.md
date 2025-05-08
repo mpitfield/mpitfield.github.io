@@ -13,7 +13,7 @@ title: Home
 </div>
 
 <script>
-    let carousels = document.getElementById('home-carousel').querySelector('div');
+    let carousels = document.getElementById('home-carousel').querySelectorAll('div');
     carousels[0].classList.add('current');
     function nextCarousel() {
         let current = '';
