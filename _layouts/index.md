@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Home
+layout: page
+title: "Home"
+permalink: /home
 ---
 
 <h1>HOME</h1>
