@@ -18,7 +18,7 @@ body {
     background-color: var(--light-grey);
     color: white;
     text-align: center;
-    padding: 0 10px;
+    padding: 20px 0;
 }
 
 .header-container {
@@ -28,6 +28,22 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.header-container img {
+    width: 200px;
+}
+
+.header-container nav a {
+    color: black !important;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.header-container nav a:hover {
+    color: var(--dark-grey) !important
 }
 
 .footer {
