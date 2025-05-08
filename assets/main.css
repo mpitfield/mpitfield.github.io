@@ -5,6 +5,8 @@
     --blue-hover: #184779;
     --dark-grey: #3e3e3e;
     --light-grey: #efefef;
+    --black: #222222;
+    --black-hover: #222222;
 }
 
 body {
@@ -30,20 +32,32 @@ body {
     margin: 0 auto;
 }
 
-.header-container img {
+.w200 {
     width: 200px;
 }
 
-.header-container nav a {
-    color: black !important;
+.link-black a {
+    color: var(--black) !important;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
-.header-container nav a:hover {
+.link-black:hover {
     color: var(--dark-grey) !important
+}
+
+.link-white a {
+    color: var(--white) !important;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.link-white:hover {
+    color: var(--light-grey) !important
 }
 
 .footer {
