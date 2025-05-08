@@ -71,6 +71,15 @@ body {
     padding: 10px;
 }
 
+.footer-container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .error-404 {
     border-radius: 8px;
     margin: 0 auto;
