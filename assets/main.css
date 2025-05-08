@@ -23,8 +23,12 @@ body {
 
 .error-404 {
     width: 500px;
-    border: 5px solid #184779;
+    border: 5px solid #4c545c;
     border-radius: 8px;
-    margin: 25px auto;
-    background-color: #184779;
+    margin: 200px auto;
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 20px;
 }
