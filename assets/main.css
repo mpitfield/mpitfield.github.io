@@ -11,6 +11,38 @@
     --white-hover: #bbe0f9;
 }
 
+.button-blank {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-buttons button:hover {
+    opacity: 1;
+    background-color: black;
+}
+
+.carousel-buttons button {
+    color: white;
+    font-weight: 900;
+    height: 100%;
+    font-size: 70px;
+    padding: 0px 25px;
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
+.carousel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 10;
+    width: 100%;
+}
+
 .carousel .current {
     left: 0%;
 }
