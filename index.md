@@ -5,6 +5,10 @@ title: Home
 
 <div class="page-width">
     <div class="carousel" id="home-carousel">
+        <span class="carousel-buttons">
+            <button class="button-blank prev-button"><</button>
+            <button class="button-blank next-button">></button>
+        </span>
         <div><img src="/images/car1.jpg"></div>
         <div><img src="/images/car2.jpg"></div>
         <div><img src="/images/car3.jpg"></div>
