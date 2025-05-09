@@ -6,7 +6,7 @@ title: Home
 <div class="page-width">
     <div class="carousel" id="home-carousel">
         <span class="carousel-buttons">
-            <button class="button-blank prev-button"><</button>
+            <button class="button-blank prev-button" onclick="nextCarousel()"><</button>
             <button class="button-blank next-button">></button>
         </span>
         <div><img src="/images/car1.jpg"></div>
