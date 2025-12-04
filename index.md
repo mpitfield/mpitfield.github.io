@@ -252,3 +252,14 @@ title: Home
         }
     }
 </style>
+<script>
+    // Simple fade-in once the DOM is ready
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("under-construction");
+      if (container) {
+        requestAnimationFrame(() => {
+          container.classList.add("visible");
+        });
+      }
+    });
+  </script>
